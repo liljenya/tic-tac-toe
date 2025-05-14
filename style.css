@@ -90,3 +90,19 @@ body {
 .cell {
   border: 1px solid #D2B48C;
 }
+
+.reset-btn {
+  padding: 15px 40px;
+  font-size: 20px;
+  background-color: #648D59;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reset-btn:hover {
+  background-color: #7AAA74;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
